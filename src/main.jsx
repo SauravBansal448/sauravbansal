@@ -34,6 +34,7 @@ const resumeUrl = "/resume.pdf";
 
 const contact = {
   email: "sauravbansal447@gmail.com",
+  github: "https://github.com/SauravBansal448?tab=repositories",
   linkedin: "https://www.linkedin.com/in/saurav-bansal/"
 };
 
