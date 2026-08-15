@@ -175,8 +175,8 @@ const certifications = [
 const publications = [
   { title: "Biometric Authentication in Android Using BiometricManager", url: "https://www.tothenew.com/blog/biometric-authentication-in-android-using-biometricmanager/" },
   { title: "The Future of Mobile App Development: User Experience, Trends and Technologies", url: "https://www.tothenew.com/blog/the-future-of-mobile-app-development-user-experience-trends-and-technologies/" },
-  { title: "Jetpack Compose Tutorial For Beginners – Easy-to-Follow Steps", url: "https://example.com/jetpack-compose-tutorial" },
-  { title: "Introduction to Ktor Rest API", url: "https://example.com/introduction-to-ktor-rest-api" }
+  { title: "Jetpack Compose Tutorial For Beginners – Easy-to-Follow Steps", url: "https://www.tothenew.com/blog/jetpack-compose-tutorial-for-beginners-easy-to-follow-steps/" },
+  { title: "Introduction to Ktor Rest API", url: "https://www.tothenew.com/blog/introduction-to-ktor-rest-api/" }
 ];
 
 function SectionTitle({ kicker, title, text }) {
@@ -205,7 +205,7 @@ function App() {
         <nav className="nav container">
           <a href="#home" className="brand" onClick={close}>
             <span className="brand-logo">SB</span>
-            <span>Saurav<span className="accent">.</span></span>
+            <span>Saurav Bansal<span className="accent">.</span></span>
           </a>
 
           <div className={`nav-links ${mobileMenu ? "open" : ""}`}>
