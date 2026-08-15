@@ -402,7 +402,7 @@ function App() {
             <div className="education-grid">
               <div className="edu-card">
                 <GraduationCap size={22} />
-                <div><strong>MCA</strong><span>KIET Group of Institutions, Ghaziabad · 2019 · 87.58</span></div>
+                <div><strong>MCA</strong><span>KIET Group of Institutions, Ghaziabad · 2019 · 87.58%</span></div>
               </div>
               <div className="edu-card">
                 <GraduationCap size={22} />
