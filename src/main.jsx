@@ -292,13 +292,15 @@ function App() {
                 real-time communication and consumer applications.
               </p>
               <p>
-                I enjoy solving problems where product needs, platform constraints and engineering quality
-                intersect — from DPAD-first TV UI and automotive playback to reusable Android libraries,
-                API integration and automated testing.
+                I specialize in Kotlin, Core Java, Jetpack Compose, KMP/CMP, modern Android architecture, 
+                API integration, and application performance. My experience spans telecom, OTT, 
+                media, real-time communication, and consumer applications, working with global clients 
+                to deliver reliable and maintainable products.
               </p>
               <p>
-                More recently, I've also been using AI-assisted development to reduce repetitive engineering
-                work, improve unit-test coverage and accelerate code-quality improvements.
+                I'm passionate about solving complex engineering problems, continuously learning new technologies, 
+                and using AI-assisted development to automate testing, improve code quality, 
+                and accelerate engineering workflows.
               </p>
             </div>
             <div className="about-stats">
@@ -400,11 +402,11 @@ function App() {
             <div className="education-grid">
               <div className="edu-card">
                 <GraduationCap size={22} />
-                <div><strong>MCA</strong><span>KIET Group of Institutions, Ghaziabad · 2019</span></div>
+                <div><strong>MCA</strong><span>KIET Group of Institutions, Ghaziabad · 2019 · 87.58</span></div>
               </div>
               <div className="edu-card">
                 <GraduationCap size={22} />
-                <div><strong>BCA</strong><span>Gagan College of Management, Aligarh · 2016</span></div>
+                <div><strong>BCA</strong><span>Gagan College of Management, Aligarh · 2016 · 70.22%</span></div>
               </div>
             </div>
 
