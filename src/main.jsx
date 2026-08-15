@@ -278,7 +278,7 @@ function App() {
 
         <section className="ticker">
           <div className="ticker-track">
-            <span>ANDROID MOBILE</span><b>✦</b><span>ANDROID TV</span><b>✦</b><span>AUTOMOTIVE OS</span><b>✦</b><span>KOTLIN</span><b>✦</b><span>JETPACK COMPOSE</span><b>✦</b><span>KMP / CMP</span><b>✦</b><span>CLEAN ARCHITECTURE</span>
+            <span>ANDROID MOBILE</span><b>✦</b><span>ANDROID TV</span><b>✦</b><span>AOSP(Automotive OS)</span><b>✦</b><span>KOTLIN</span><b>✦</b><span>JETPACK COMPOSE</span><b>✦</b><span>KMP / CMP</span>
           </div>
         </section>
 
