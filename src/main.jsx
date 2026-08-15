@@ -30,7 +30,7 @@ import {
 } from "lucide-react";
 import "./styles.css";
 
-const resumeUrl = "/resume.pdf";
+const resumeUrl = import.meta.env.BASE_URL + "resume.pdf";
 
 const contact = {
   email: "sauravbansal447@gmail.com",
@@ -173,10 +173,10 @@ const certifications = [
 ];
 
 const publications = [
-  "Biometric Authentication in Android Using BiometricManager",
-  "The Future of Mobile App Development: User Experience, Trends and Technologies",
-  "Jetpack Compose Tutorial For Beginners – Easy-to-Follow Steps",
-  "Introduction to Ktor Rest API"
+  { title: "Biometric Authentication in Android Using BiometricManager", url: "https://www.tothenew.com/blog/biometric-authentication-in-android-using-biometricmanager/" },
+  { title: "The Future of Mobile App Development: User Experience, Trends and Technologies", url: "https://www.tothenew.com/blog/the-future-of-mobile-app-development-user-experience-trends-and-technologies/" },
+  { title: "Jetpack Compose Tutorial For Beginners – Easy-to-Follow Steps", url: "https://example.com/jetpack-compose-tutorial" },
+  { title: "Introduction to Ktor Rest API", url: "https://example.com/introduction-to-ktor-rest-api" }
 ];
 
 function SectionTitle({ kicker, title, text }) {
@@ -423,7 +423,16 @@ function App() {
             <div className="sub-block">
               <h3>Publications / Blogs</h3>
               <div className="pub-grid">
-                {publications.map(item => <div className="pub-card" key={item}><ChevronRight size={16} /><span>{item}</span></div>)}
+                {publications.map(pub => (
+                  <div className="pub-card" key={pub.title}>
+                    <ChevronRight size={16} />
+                    {pub.url ? (
+                      <a href={pub.url} target="_blank" rel="noreferrer">{pub.title}</a>
+                    ) : (
+                      <span>{pub.title}</span>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
           </div>

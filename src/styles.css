@@ -131,7 +131,7 @@ button { font: inherit; }
 .float-pill.two { right: 0; bottom: 88px; }
 
 .ticker { overflow: hidden; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: color-mix(in srgb, var(--surface) 55%, transparent); }
-.ticker-track { width: max-content; display: flex; gap: 26px; align-items: center; padding: 16px 0 16px 24px; transform: translateX(0); color: var(--muted); font-size: 11px; letter-spacing: .18em; font-weight: 800; }
+.ticker-track { width: max-content; display: flex; gap: 26px; align-items: center; padding: 16px 0; transform: translateX(0); color: var(--muted); font-size: 11px; letter-spacing: .18em; font-weight: 800; }
 .ticker-track b { color: var(--accent-2); }
 
 .section { padding: 115px 0; }
